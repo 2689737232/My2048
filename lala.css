@@ -1,0 +1,105 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.game-wrapper {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px auto;
+    width: 600px;
+    min-height: 580px;
+    border: 1px solid rgb(66, 181, 216);
+    border-radius: 50px;
+    /* background-color: bisque;
+    box-shadow: 0 0 10px 20px bisque; */
+}
+
+.game-field {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+
+}
+/* .background-block{
+    flex: 1 25%;
+    background-color: antiquewhite;
+} */
+
+/* 菜单 */
+.menu-wrapper {
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 30%;
+    margin-right: 5%;
+    width: auto;
+    height: auto;
+    border: 1px solid;
+}
+
+.btn-box {
+    margin-top: 10px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ok {
+    background-color: green;
+    box-shadow: 0 0 2px 1px green;
+}
+
+.cancel {
+    background-color: red;
+    box-shadow: 0 0 2px 1px red;
+}
+
+.ok:hover {
+    color: white;
+    background-color: rgb(1, 97, 1);
+    box-shadow: 0 0 2px 1px rgb(1, 97, 1);
+}
+
+.cancel:hover {
+    color: white;
+    background-color: rgb(179, 14, 14);
+    box-shadow: 0 0 2px 1px rgb(179, 14, 14);
+}
+
+.btn {
+    font-size: 13px;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 25px;
+}
+
+.contro-box{
+    border-top: 1px solid rebeccapurple;
+    margin-top: 30px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.control-btn{
+    width: 80px;
+    padding: 8px 0;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.start-btn{
+    background-color: salmon;
+}
+.start-btn:hover{
+    background-color: rgb(236, 109, 95);
+}
+.reset-btn{
+    background-color: slategrey;
+}
+.reset-btn:hover{
+    background-color: rgb(76, 94, 112);
+}
