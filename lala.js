@@ -20,11 +20,11 @@
 
 
     let gameFieldWrapper = null,  // 棋盘中的包裹层，方便样式的添加修改。以减少对棋盘的影响。
-        blockContainer = null,
-        isStartGame = false, // 小方块的容器，为一个二维数组
+        blockContainer = null, // 小方块的容器，为一个二维数组
+        isStartGame = false,  
         blockWidth = null,   // 每个小方块的宽度
         blockHeight = null, // 每个小方块的高度 ,
-        flag = true,
+        flag = true,    // 移动锁，防止点击过快
         colorMap = {
             "0": "#ccc0b3",
             "2": "#eee4da",
